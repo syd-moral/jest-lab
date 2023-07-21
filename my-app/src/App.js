@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <h1 data-testid="hello">Hello World</h1>
       <input data-testid="checkbox" type="checkbox" onChange={() => setCheckbox(!checkbox)} value={checkbox}/>
       <label>{"This checkbox is now set to " + checkbox}</label>
       <br />
